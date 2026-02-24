@@ -1,0 +1,7 @@
+Cloud Development Environment:-
+Today I learned how to use GitHub Codespaces as a cloud development server instead of coding locally.
+Why we use it:
+              No local setup required
+              Same environment everywhere
+              Real-world cloud development style
+              

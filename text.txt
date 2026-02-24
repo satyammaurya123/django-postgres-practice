@@ -1,0 +1,25 @@
+source sat/bin/activate  //-> activate the virtual environment 
+sudo -u postgres psql //-> user for Run psql as postgres user with admin privileges
+sudo service postgresql restart //-> use for restarting postgresql
+
+
+//
+postgres@codespaces-31e6e2:/workspaces/django-postgres-practice$ psql
+psql (16.11 (Ubuntu 16.11-0ubuntu0.24.04.1))
+Type "help" for help.
+postgres=# CREATE DATABASE satyamdb;
+CREATE USER satyam WITH PASSWORD 'password123';
+GRANT ALL PRIVILEGES ON DATABASE satyamdb TO satyam;
+CREATE DATABASE
+CREATE ROLE
+GRANT
+postgres=# \q
+postgres@codespaces-31e6e2:/workspaces/django-postgres-practice$ exit
+logout
+//
+
+
+// django superusername 
+username= satyam_raj
+PASSWORD - raj@1234
+//
